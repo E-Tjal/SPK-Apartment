@@ -1,5 +1,5 @@
 import streamlit as st
-from spk_data import create_dummy_apartments
+from spk_main import apartments
 
 # Konfigurasi halaman
 st.set_page_config(
@@ -88,7 +88,8 @@ st.write("Berikut adalah detail lengkap dari semua apartemen yang akan dinilai."
 
 # Buat atau ambil data apartemen dari session state
 if 'apartments' not in st.session_state:
-    st.session_state.apartments = create_dummy_apartments()
+    # st.session_state.apartments = create_dummy_apartments()
+    st.session_state.apartments = apartments
 
 apartments = st.session_state.apartments
 

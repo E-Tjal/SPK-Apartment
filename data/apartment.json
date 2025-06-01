@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Tesr",
+    "data": {
+      "Harga Beli": "Premium (> Rp1,2 miliar)",
+      "Harga Sewa": "Premium (> Rp8 juta/bulan)",
+      "Biaya Perawatan": "Tinggi (> Rp1 juta/bulan)",
+      "Lokasi": "Strategis (Pusat kota/Pusat bisnis)",
+      "Transportasi": "Kurang (Transportasi sangat terbatas)",
+      "Kedekatan dengan Fasilitas Publik": "Sedang (1km - 3km ke fasilitas publik)",
+      "Fasilitas Umum": [],
+      "Fasilitas Unit": [],
+      "Luas Unit": "Studio (< 30m\u00b2)",
+      "Sistem Keamanan": "Standar (Satpam 24 jam)",
+      "Keamanan Lingkungan": "Sangat aman (Kawasan elit, crime rate rendah)",
+      "Fire Safety": "Cukup (Alarm dan tangga darurat)",
+      "Capital Gain": "Sangat tinggi (Pertumbuhan nilai >15% per tahun)",
+      "Rental Yield": "Sedang (4-6% per tahun)",
+      "Prospek Area": "Sangat baik (Area berkembang pesat, proyek infrastruktur baru)"
+    }
+  }
+]

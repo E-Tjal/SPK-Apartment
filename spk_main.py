@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from spk_data import criteria, sub_criteria, create_dummy_apartments
+from spk_data import criteria, sub_criteria, create_dummy_apartments,load_apartments
 from spk_saw_calculation import perform_saw_analysis
 
 # Konfigurasi halaman Streamlit
@@ -24,7 +24,8 @@ st.markdown("""
 
 if st.sidebar.button("📋 Lihat Data Apartemen"):
     st.switch_page("pages/Page_data_apartement.py")
-
+if st.sidebar.button("📋 input Data Apartemen"):
+    st.switch_page("pages/Input_data_apartement.py")
 # Input bobot kriteria
 st.header("🔢 Pengaturan Bobot Kriteria")
 st.write("Atur bobot untuk setiap kriteria (total harus 100%):")
@@ -56,7 +57,8 @@ criteria['C4']['weight'] = c4_weight / 100
 criteria['C5']['weight'] = c5_weight / 100
 
 # Pilihan untuk menggunakan data dummy atau input manual
-apartments = create_dummy_apartments()
+# apartments = create_dummy_apartments()
+apartments = load_apartments()
 
 #Button Perhitungan
 if st.button("🚀 Hitung Rekomendasi"):
