@@ -1,5 +1,6 @@
 import random
-
+import json
+import os
 # Data kriteria
 criteria = {
     'C1': {'name': 'Harga', 'type': 'Cost', 'weight': 0.25},
@@ -190,3 +191,19 @@ def create_dummy_apartments():
         })
     
     return dummy_apartments
+DATA_FILE='data/apartment.json'
+
+def append_apartment(apartment):
+    with open(DATA_FILE, 'a') as f:
+        json.dump(apartment, f)
+        f.write('\n')
+
+def load_apartments():
+    if not os.path.exists(DATA_FILE):
+        return []
+    with open(DATA_FILE, 'r', encoding='utf-8') as file:
+        return json.load(file)
+
+def save_apartments(apartments):
+    with open(DATA_FILE, 'w') as f:
+        json.dump(apartments, f, indent=2)
