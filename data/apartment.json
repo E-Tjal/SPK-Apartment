@@ -1,22 +1,217 @@
 [
   {
-    "name": "Tesr",
+    "name": "Taman Melati Yogyakarta",
+    "data": {
+      "Harga Beli": "Menengah Atas (Rp800 juta \u2013 Rp1,2 miliar)",
+      "Harga Sewa": "Menengah (Rp3 juta \u2013 Rp5 juta/bulan)",
+      "Biaya Perawatan": "Sedang (Rp500 ribu \u2013 Rp1 juta/bulan)",
+      "Lokasi": "Strategis (Pusat kota/Pusat bisnis)",
+      "Transportasi": "Sangat baik (Dekat stasiun/terminal, banyak transportasi online)",
+      "Kedekatan dengan Fasilitas Publik": "Sangat dekat (< 500 meter ke mal/supermarket/rumah sakit)",
+      "Fasilitas Umum": [
+        "Kolam renang",
+        "Gym",
+        "Taman",
+        "Parkir",
+        "Playground"
+      ],
+      "Fasilitas Unit": [
+        "Smart Home Features",
+        "AC (Air Conditioner)",
+        "Water Heater",
+        "Built-in Furniture",
+        "Listrik dan Air Terjamin"
+      ],
+      "Luas Unit": "Kecil (30m\u00b2 - 50m\u00b2)",
+      "Sistem Keamanan": "Sangat lengkap (Keamanan 24 jam, CCTV, kartu akses, fingerprint)",
+      "Keamanan Lingkungan": "Aman (Kawasan residensial, keamanan terjaga)",
+      "Fire Safety": "Sangat baik (Sprinkler, alarm, tangga darurat, latihan berkala)",
+      "Capital Gain": "Sangat tinggi (Pertumbuhan nilai >15% per tahun)",
+      "Rental Yield": "Sangat tinggi (>8% per tahun)",
+      "Prospek Area": "Sangat baik (Area berkembang pesat, proyek infrastruktur baru)"
+    }
+  },
+  {
+    "name": "Student Castle Apartment",
+    "data": {
+      "Harga Beli": "Menengah (Rp500 juta \u2013 Rp800 juta)",
+      "Harga Sewa": "Menengah (Rp3 juta \u2013 Rp5 juta/bulan)",
+      "Biaya Perawatan": "Rendah (< Rp500 ribu/bulan)",
+      "Lokasi": "Strategis (Pusat kota/Pusat bisnis)",
+      "Transportasi": "Sangat baik (Dekat stasiun/terminal, banyak transportasi online)",
+      "Kedekatan dengan Fasilitas Publik": "Sangat dekat (< 500 meter ke mal/supermarket/rumah sakit)",
+      "Fasilitas Umum": [
+        "Kolam renang",
+        "Gym",
+        "Parkir",
+        "Playground"
+      ],
+      "Fasilitas Unit": [
+        "AC (Air Conditioner)",
+        "Water Heater",
+        "Built-in Furniture",
+        "Listrik dan Air Terjamin"
+      ],
+      "Luas Unit": "Studio (< 30m\u00b2)",
+      "Sistem Keamanan": "Lengkap (Keamanan 24 jam, CCTV, kartu akses)",
+      "Keamanan Lingkungan": "Cukup aman (Area umum, tingkat kejahatan rata-rata)",
+      "Fire Safety": "Baik (Sprinkler, alarm, tangga darurat)",
+      "Capital Gain": "Sangat tinggi (Pertumbuhan nilai >15% per tahun)",
+      "Rental Yield": "Tinggi (6-8% per tahun)",
+      "Prospek Area": "Sangat baik (Area berkembang pesat, proyek infrastruktur baru)"
+    }
+  },
+  {
+    "name": "Beta House Apartemen Barsa City",
+    "data": {
+      "Harga Beli": "Menengah (Rp500 juta \u2013 Rp800 juta)",
+      "Harga Sewa": "Menengah (Rp3 juta \u2013 Rp5 juta/bulan)",
+      "Biaya Perawatan": "Rendah (< Rp500 ribu/bulan)",
+      "Lokasi": "Pinggiran (Kawasan pinggiran kota)",
+      "Transportasi": "Cukup (Transportasi umum terbatas)",
+      "Kedekatan dengan Fasilitas Publik": "Sedang (1km - 3km ke fasilitas publik)",
+      "Fasilitas Umum": [
+        "Kolam renang",
+        "Gym",
+        "Parkir"
+      ],
+      "Fasilitas Unit": [
+        "AC (Air Conditioner)",
+        "Water Heater",
+        "Built-in Furniture"
+      ],
+      "Luas Unit": "Studio (< 30m\u00b2)",
+      "Sistem Keamanan": "Standar (Satpam 24 jam)",
+      "Keamanan Lingkungan": "Cukup aman (Area umum, tingkat kejahatan rata-rata)",
+      "Fire Safety": "Cukup (Alarm dan tangga darurat)",
+      "Capital Gain": "Sangat tinggi (Pertumbuhan nilai >15% per tahun)",
+      "Rental Yield": "Sangat tinggi (>8% per tahun)",
+      "Prospek Area": "Sangat baik (Area berkembang pesat, proyek infrastruktur baru)"
+    }
+  },
+  {
+    "name": "Agrippina Rooms Real Estate Property by Mataram City Apartemen Jogja",
     "data": {
       "Harga Beli": "Premium (> Rp1,2 miliar)",
       "Harga Sewa": "Premium (> Rp8 juta/bulan)",
-      "Biaya Perawatan": "Tinggi (> Rp1 juta/bulan)",
-      "Lokasi": "Strategis (Pusat kota/Pusat bisnis)",
-      "Transportasi": "Kurang (Transportasi sangat terbatas)",
+      "Biaya Perawatan": "Sedang (Rp500 ribu \u2013 Rp1 juta/bulan)",
+      "Lokasi": "Pinggiran (Kawasan pinggiran kota)",
+      "Transportasi": "Baik (Akses transportasi umum reguler)",
       "Kedekatan dengan Fasilitas Publik": "Sedang (1km - 3km ke fasilitas publik)",
-      "Fasilitas Umum": [],
-      "Fasilitas Unit": [],
-      "Luas Unit": "Studio (< 30m\u00b2)",
-      "Sistem Keamanan": "Standar (Satpam 24 jam)",
-      "Keamanan Lingkungan": "Sangat aman (Kawasan elit, crime rate rendah)",
-      "Fire Safety": "Cukup (Alarm dan tangga darurat)",
-      "Capital Gain": "Sangat tinggi (Pertumbuhan nilai >15% per tahun)",
+      "Fasilitas Umum": [
+        "Kolam renang",
+        "Gym",
+        "Taman",
+        "Parkir",
+        "Playground"
+      ],
+      "Fasilitas Unit": [
+        "Smart Home Features",
+        "AC (Air Conditioner)",
+        "Water Heater",
+        "Built-in Furniture",
+        "Dapur Terpisah",
+        "Listrik dan Air Terjamin"
+      ],
+      "Luas Unit": "Kecil (30m\u00b2 - 50m\u00b2)",
+      "Sistem Keamanan": "Lengkap (Keamanan 24 jam, CCTV, kartu akses)",
+      "Keamanan Lingkungan": "Aman (Kawasan residensial, keamanan terjaga)",
+      "Fire Safety": "Baik (Sprinkler, alarm, tangga darurat)",
+      "Capital Gain": "Sedang (Pertumbuhan nilai 5-10% per tahun)",
       "Rental Yield": "Sedang (4-6% per tahun)",
       "Prospek Area": "Sangat baik (Area berkembang pesat, proyek infrastruktur baru)"
+    }
+  },
+  {
+    "name": "Greenhost Boutique Apartment",
+    "data": {
+      "Harga Beli": "Menengah Atas (Rp800 juta \u2013 Rp1,2 miliar)",
+      "Harga Sewa": "Menengah Atas (Rp5 juta \u2013 Rp8 juta/bulan)",
+      "Biaya Perawatan": "Sedang (Rp500 ribu \u2013 Rp1 juta/bulan)",
+      "Lokasi": "Semi-strategis (Area pengembangan/Dekat fasilitas publik)",
+      "Transportasi": "Baik (Akses transportasi umum reguler)",
+      "Kedekatan dengan Fasilitas Publik": "Dekat (500m - 1km ke fasilitas publik)",
+      "Fasilitas Umum": [
+        "Taman vertikal",
+        "Rooftop garden",
+        "Co-working space",
+        "Bike parking",
+        "Organic cafe"
+      ],
+      "Fasilitas Unit": [
+        "AC (Air Conditioner)",
+        "Water Heater",
+        "Eco-friendly materials",
+        "Workspace setup"
+      ],
+      "Luas Unit": "Sedang (50m\u00b2 - 80m\u00b2)",
+      "Sistem Keamanan": "Lengkap (Keamanan 24 jam, CCTV, kartu akses)",
+      "Keamanan Lingkungan": "Aman (Kawasan residensial, keamanan terjaga)",
+      "Fire Safety": "Baik (Sprinkler, alarm, tangga darurat)",
+      "Capital Gain": "Tinggi (Pertumbuhan nilai 10-15% per tahun)",
+      "Rental Yield": "Tinggi (6-8% per tahun)",
+      "Prospek Area": "Baik (Area berkembang)"
+    }
+  },
+  {
+    "name": "Dafam Forta Condong Catur",
+    "data": {
+      "Harga Beli": "Menengah (Rp500 juta \u2013 Rp800 juta)",
+      "Harga Sewa": "Menengah (Rp3 juta \u2013 Rp5 juta/bulan)",
+      "Biaya Perawatan": "Sedang (Rp500 ribu \u2013 Rp1 juta/bulan)",
+      "Lokasi": "Semi-strategis (Area pengembangan/Dekat fasilitas publik)",
+      "Transportasi": "Baik (Akses transportasi umum reguler)",
+      "Kedekatan dengan Fasilitas Publik": "Dekat (500m - 1km ke fasilitas publik)",
+      "Fasilitas Umum": [
+        "Kolam renang",
+        "Taman",
+        "Parkir",
+        "Laundry",
+        "Mini market"
+      ],
+      "Fasilitas Unit": [
+        "AC (Air Conditioner)",
+        "Water Heater",
+        "TV kabel",
+        "Dapur kecil"
+      ],
+      "Luas Unit": "Kecil (30m\u00b2 - 50m\u00b2)",
+      "Sistem Keamanan": "Lengkap (Keamanan 24 jam, CCTV, kartu akses)",
+      "Keamanan Lingkungan": "Aman (Kawasan residensial, keamanan terjaga)",
+      "Fire Safety": "Baik (Sprinkler, alarm, tangga darurat)",
+      "Capital Gain": "Sedang (Pertumbuhan nilai 5-10% per tahun)",
+      "Rental Yield": "Sedang (4-6% per tahun)",
+      "Prospek Area": "Baik (Area berkembang)"
+    }
+  },
+  {
+    "name": "Nama",
+    "data": {
+      "Harga Beli": "Menengah (Rp500 juta \u2013 Rp800 juta)",
+      "Harga Sewa": "Menengah Atas (Rp5 juta \u2013 Rp8 juta/bulan)",
+      "Biaya Perawatan": "Rendah (< Rp500 ribu/bulan)",
+      "Lokasi": "Semi-strategis (Area pengembangan/Dekat fasilitas publik)",
+      "Transportasi": "Cukup (Transportasi umum terbatas)",
+      "Kedekatan dengan Fasilitas Publik": "Dekat (500m - 1km ke fasilitas publik)",
+      "Fasilitas Umum": [
+        "Gym",
+        "Taman",
+        "Parkir",
+        "Sauna"
+      ],
+      "Fasilitas Unit": [
+        "AC (Air Conditioner)",
+        "Water Heater",
+        "Built-in Furniture",
+        "Dapur Terpisah"
+      ],
+      "Luas Unit": "Sedang (50m\u00b2 - 80m\u00b2)",
+      "Sistem Keamanan": "Lengkap (Keamanan 24 jam, CCTV, kartu akses)",
+      "Keamanan Lingkungan": "Cukup aman (Area umum, tingkat kejahatan rata-rata)",
+      "Fire Safety": "Baik (Sprinkler, alarm, tangga darurat)",
+      "Capital Gain": "Tinggi (Pertumbuhan nilai 10-15% per tahun)",
+      "Rental Yield": "Tinggi (6-8% per tahun)",
+      "Prospek Area": "Baik (Area berkembang)"
     }
   }
 ]

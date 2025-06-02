@@ -66,11 +66,12 @@ if st.button("🚀 Hitung Rekomendasi"):
     
     # Tampilkan hasil
     st.header("🏆 Hasil Rekomendasi")
-    st.dataframe(result['results'].set_index('Ranking'), use_container_width=True)
+    top_5_results = result['results'].head(5)
+    st.dataframe(top_5_results.set_index('Ranking'), use_container_width=True)
     
     # Visualisasi
     st.subheader("📊 Visualisasi Skor Preferensi")
-    st.bar_chart(result['results'].set_index('Apartemen')['Skor Preferensi'])
+    st.bar_chart(top_5_results.set_index('Apartemen')['Skor Preferensi'])
     
     # Rekomendasi terbaik
     best_apartment = result['results'].iloc[0]
