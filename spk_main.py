@@ -30,6 +30,7 @@ if st.sidebar.button("📋 input Data Apartemen"):
 st.header("🔢 Pengaturan Bobot Kriteria")
 st.write("Atur bobot untuk setiap kriteria (total harus 100%):")
 
+
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
@@ -45,6 +46,7 @@ with col5:
 
 total_weight = c1_weight + c2_weight + c3_weight + c4_weight + c5_weight
 
+st.write("Jika tidak ingin menggunakan salah satu kriteria, atur bobot kriteria yang tidak digunakan menjadi 0.")
 if total_weight != 100:
     st.error(f"Total bobot harus 100% (Saat ini: {total_weight}%). Silakan sesuaikan kembali.")
     st.stop()
