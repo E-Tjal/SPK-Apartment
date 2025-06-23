@@ -1,4 +1,5 @@
 cara penggunaan 
+
 gunakan cmd menggunakan command streamlit run spk_main.py
 
 ISI DATA
